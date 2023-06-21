@@ -20,6 +20,11 @@ public class UpdateDemoApplication {
 		numbers[3] = 2;
 		numbers[4] = 6;
 		
+		// print the values
+		for(int i = 0; i < numbers.length; i++) {
+			System.out.println(numbers[i] + " ");
+		}
+		
 		// initializing an array
 		float[] salaries = {7500.00f, 5200.58f, 6300.75f, 8000.65f};
 		
