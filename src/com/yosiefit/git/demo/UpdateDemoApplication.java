@@ -7,8 +7,10 @@ public class UpdateDemoApplication {
 		String name = "Noah";
 		if(name == "Noah") {
 			System.out.println("Just go and eat");
+		}else if(name == ""){
+			System.out.println("Identify yourself");
 		}else {
-			System.out.println("Ask someone");
+			System.out.println("You have to ask someone");
 		}
 		
 
